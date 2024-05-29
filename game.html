@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h2>First player will be X and second player will be O</h2>
+        <p>Game begin when you click on a cell</p>
+    </div>
+    <div id="table_container">
+       <table id="game_table">
+            <tr>
+                <td class="game_td" id="cell0"></td>
+                <td class="game_td" id="cell1"></td>
+                <td class="game_td" id="cell2"></td>
+            </tr>
+            <tr>
+                <td class="game_td" id="cell3"></td>
+                <td class="game_td" id="cell4"></td>
+                <td class="game_td" id="cell5"></td>
+            </tr>
+            <tr>
+                <td class="game_td" id="cell6"></td>
+                <td class="game_td" id="cell7"></td>
+                <td class="game_td" id="cell8"></td>
+            </tr>
+        </table> 
+    </div>
+
+    <div>
+        <p id="winnertext">Winner is : <span id="winneris"></span></p>
+    </div>
+
+    <div>
+        <button type="button" id="resetgame">Play Again</button>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
